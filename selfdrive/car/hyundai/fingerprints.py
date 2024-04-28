@@ -773,6 +773,27 @@ FW_VERSIONS = {
       b'\xf1\000YG  MDPS C 1.00 1.01 56310F6350\000 4YG7C101',
     ],
   },
+  CAR.KIA_CADENZA_YG: {
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\000YG MFC  1.00 1.01 95740F6100 170717',
+      b'\xf1\000YG MFC  1.00 1.03 95740F6200 190605',
+    ],
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00YG__ SCC F_CUP   1.01 1.01 96400F6000     \xf1\xa01.01',
+      b'\xf1\x00YG__ SCC F_CUP   1.00 1.04 96400F6400     \xf1\xa01.04',
+      b'\xf1\x00YG__ SCC F_CUP   1.01 1.02 96400F6000     \xf1\xa01.02',
+      b'\xf1\x00YG__ SCC F_CUP   1.00 1.01 99110F6000     \xf1\xa01.01',
+    ],
+    #(Ecu.abs, 0x7d1, None): [
+      b'\xf1\x8758920-F6230\xf1\000NC MGH \t 101\031\t\005 58920F6230\xf1\xa01.01',
+    #],
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\000YG  MDPS C 1.00 1.00 99800F6563\000 4YGAC100',
+      b'\xf1\000YG  MDPS C 1.00 1.00 E0000F6563\000 4YGSC100',
+      b'\xf1\000YG  MDPS C 1.01 99500F6563\000 4YGDC103',
+      b'\xf1\000YG  MDPS C 1.00 1.01 56310F6350\000 4YG7C101',
+    ],
+  },
   CAR.KIA_SORENTO: { # (UM)
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00UMP LKAS AT USA LHD 1.00 1.00 95740-C6550 d00',
