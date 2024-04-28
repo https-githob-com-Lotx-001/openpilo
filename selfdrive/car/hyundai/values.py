@@ -454,6 +454,13 @@ class CAR(Platforms):
     KIA_K7.specs,
     flags=HyundaiFlags.HYBRID | HyundaiFlags.LEGACY,
   )
+  KIA_CADENZA_YG = HyundaiPlatformConfig(
+    [
+      HyundaiCarDocs("KIA CADENZA 2017-20 (YG)", car_parts=CarParts.common([CarHarness.hyundai_c])),
+    ],
+    CarSpecs(mass=1930, wheelbase=2.85, steerRatio=14.4),
+    flags=HyundaiFlags.CLUSTER_GEARS | HyundaiFlags.LEGACY,
+  )
   KIA_K9 = HyundaiPlatformConfig(
     [
       HyundaiCarDocs("KIA K9 (RJ)", car_parts=CarParts.common([CarHarness.hyundai_c])),
